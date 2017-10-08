@@ -1,0 +1,51 @@
+
+body {
+    padding-top: 10px;
+    background-color:#fafafa; //#e9e9e9;
+    font-family: 'Josefin Slab', serif;
+    color:#666;//#898989;// #6d6d6d;
+    font-weight:300;
+}
+
+
+#navbar a {
+    font-weight:700;
+}
+
+#navbar .active a{
+    background-color: #15c1c6;//#db4455 ;
+}
+
+.page_title {
+    color : #222;
+    //font-family: 'Lobster', cursive;
+    //font-weight: 400;
+}
+.small_title{
+ //background-color: #db4455;
+    color :#6d6d6d;//#15c1c6;//#db4455;
+    font-family: 'Cinzel', serif;
+}
+
+[class*="col-"], footer {
+     /*background-color: lightgreen;*/
+     /*border: 2px solid black;*/
+     /*border-radius: 6px;*/
+     line-height: 40px;
+     text-align:justify;
+    //line-height: normal;
+ }
+
+/*[class*="col"] {
+    margin-bottom: 20px;
+}*/
+img {
+     width: 100%;
+ }
+
+.carousel-caption h2{
+    font-family: 'Josefin Slab', serif;
+}
+
+
+

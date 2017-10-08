@@ -1,0 +1,61 @@
+
+body {
+   padding-top: 10px;
+   background-color:#fafafa; //#e9e9e9;
+    font-family: 'Josefin Slab', serif;
+    color: #6d6d6d;//#898989;//
+    font-weight:300;
+}
+
+
+#navbar a {
+font-weight:700;
+}
+
+#navbar .active a{
+    background-color: #15c1c6;//#db4455 ;
+}
+
+#banner_clientele img{
+     width: 100%;
+ }
+#banner_clientele{
+    margin-top:60px;
+}
+
+.text-muted{
+   color: #15c1c6;// #db4455;//#BCBBBB;
+    font-family: 'Josefin Slab', serif;
+}
+
+/*.text-thin{
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+}*/
+
+
+/*#caption{
+    color: #286090;
+   position: absolute;
+   right: 15%;
+   top: 45px;
+   left: 15%;
+   z-index: 20;
+
+}*/
+
+/*h4{
+    //font-family: Artifika, Arial, Helvetica, sans-serif;
+    line-height: 43px;
+    color: #fff;
+    background: #222;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: bold;
+
+}*/
+
+/*.thumb-shadow1{
+   color: #3dbbd2;
+    //color: #ea4858;
+}*/

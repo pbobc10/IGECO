@@ -1,0 +1,11 @@
+#navbar a {
+    font-weight:700;
+}
+
+#navbar .active a{
+     background-color:#15c1c6;//#db4455 ;
+ }
+
+ #menu1 a:hover,#menu2 a:hover,#menu3 a:hover,#menu4 a:hover,#menu5 a:hover,#menu6 a:hover{
+    background-color:#15c1c6;//#db4455 ;
+}

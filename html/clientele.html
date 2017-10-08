@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Bootstrap core CSS -->
+        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- Social Media Buttons css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Custom styles Social Media Buttons for this template -->
+        <link href="../bootstrap/css/socialeMedia.css" rel="stylesheet"/>
+
+        <!-- SHOW BUTTON GO TO TOP -->
+        <link href="../bootstrap/css/buttonGoToTop.css" rel="stylesheet"/>
+
+        <!-- Custom styles for this template -->
+        <link href="../bootstrap/css/clientele.css " rel="stylesheet"/>
+
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Cinzel|Josefin+Slab" rel="stylesheet">
+
+
+        <title> My first site with bootstrap</title>
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements
+        and media queries -->
+        <!--[if lt IE 9]>
+        <script src="../../assets/js/html5shiv.js"></script>
+        <script src="../../assets/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- SHOW BUTTON GO TO TOP -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <!-- INCLUDE PAGE -->
+        <div data-include="../html/menu.html"></div>
+        <!-- INCLUDE PAGE -->
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div id="banner_clientele" >
+            <div class="container">
+                <!--<img src="../bootstrap/images/shadow_top.png" id="shadow_top">-->
+                <img src="../bootstrap/images/clientele_banner10.png" class="img-responsive" id="header_banner">
+                <img src="../bootstrap/images/banner_shadow_7.png"  class="img-responsive">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="text-muted ">Notre Clientèle</h2>
+                </div>
+            </div>
+
+           <div class="row">
+
+               <div class="col-md-3 col-sm-4 col-xs-6">
+                   <img src="../bootstrap/images/thumb1.jpg" class="img-responsive" alt="Cinque Terre" >
+                   <h4 class="text-uppercase text-center">Pme/Pmi</h4>
+               </div>
+
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <img src="../bootstrap/images/thumb2.jpg" class="img-responsive" alt="Cinque Terre" >
+                    <h4 class="text-uppercase text-center">Artisans</h4>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <img src="../bootstrap/images/thumb3.jpg" class="img-responsive" alt="Cinque Terre" >
+                    <h4 class="text-uppercase  text-center">Associations</h4>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <img src="../bootstrap/images/thumb1.jpg" class="img-responsive" alt="Cinque Terre" >
+                    <h4 class="text-uppercase text-center">Commerçants</h4>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <img src="../bootstrap/images/thumb1.jpg" class="img-responsive" alt="Cinque Terre" >
+                    <h4 class="text-uppercase text-center">Agriculteurs</h4>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <img src="../bootstrap/images/thumb4.jpg" class="img-responsive" alt="Cinque Terre" >
+                    <h4 class="text-uppercase text-center">Collectivités</h4>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <img src="../bootstrap/images/thumb5.jpg" class="img-responsive" alt="Cinque Terre" >
+                    <h4 class="text-uppercase text-center">Ong</h4>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                    <img src="../bootstrap/images/thumb1.jpg" class="img-responsive" alt="Cinque Terre" >
+                    <h4 class="text-uppercase text-center">Professions Liberales </h4>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- INCLUDE PAGE -->
+        <div data-include="../html/footer.html"></div>
+        <!-- INCLUDE PAGE -->
+
+            <!-- Bootstrap core JavaScript ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+            <script src="../bootstrap/js/bootstrap.min.js"></script>
+            <script src="../bootstrap/js/csi.min.js"></script>
+
+            <!--  SHOW BUTTON GO TO TOP -->
+                <script>
+                    // When the user scrolls down 20px from the top of the document, show the button
+                    window.onscroll = function() {scrollFunction()};
+
+                    function scrollFunction() {
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                            document.getElementById("myBtn").style.display = "block";
+                        } else {
+                            document.getElementById("myBtn").style.display = "none";
+                        }
+                    }
+
+                    // When the user clicks on the button, scroll to the top of the document
+                    function topFunction() {
+                        document.body.scrollTop = 0;
+                        document.documentElement.scrollTop = 0;
+                    }
+                </script>
+    </body>
+</html>

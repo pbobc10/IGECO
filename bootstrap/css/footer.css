@@ -1,0 +1,117 @@
+a {
+    color:  #14b3d9;
+    text-decoration: none;
+}
+
+[class*="col-"]{
+    line-height: 40px;
+    text-align:justify;
+}
+
+#site_intro-wrap{
+    height: 100%;
+    padding: 50px;
+    margin: 0;
+    background: #222;
+    margin-top: 70px;
+    color:#c0bec3;
+    mso-ansi-font-weight: 300;
+}
+
+
+.site_intro_p{
+// color: #898989;//#c0bec3;
+    line-height: 1.8em;
+    padding: 3px 5px;
+    margin: 0;
+}
+
+.foot-title{
+    text-align:match-parent;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size:22px;
+    color:#15c1c6;//#fff;
+    font-family: 'Cinzel', serif;
+}
+
+footer{
+    height: 100%;
+    padding: 20px;
+    margin: 0;
+    border-top: 1px solid #898989;
+    background: #222;
+
+}
+
+footer p{
+    margin-top:10px;
+    color: #fff;//#c0bec3;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.nav-foot li {
+    list-style-type: none;
+    display: inline;
+}
+
+
+#site_intro-wrap li{
+    list-style: none;
+}
+#site_intro-wrap .contact-us p{
+    text-align:match-parent;
+    color: #fff;
+}
+
+#site_intro-wrap ul{
+    text-align: match-parent;
+    padding: inherit;
+}
+
+.foot-border{
+//border-right: solid #6d6d6d 1px;
+}
+
+.nav-foot img{
+    margin-top: 10px;
+    margin-right: 2%;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+/****   SCREEN LOWER THAN 768PX  ***/
+@media (max-width: 992px) {
+    .foot-title{
+        text-align:center;
+    }
+    #site_intro-wrap p{
+        text-align: center;
+    }
+    #site_intro-wrap ul{
+        text-align: center;
+        padding: inherit;
+    }
+
+    footer p,.contact-us address{
+        text-align: center;
+    }
+
+    .nav-foot{
+    // margin-left: 20%;
+        text-align: center;
+    }
+}
+
+
+/****   TEST CSS  ***/
+
+.nav-foot{
+    padding-left:0%;
+// background-color: #ffff00;
+}
